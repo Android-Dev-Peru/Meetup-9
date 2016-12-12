@@ -11,11 +11,9 @@ Meetup #9 Rx, Animaciones y
   
   * Android Animations
   
-- Android Studio 2.1.2 o +
-- OS Linux, OSX, Windows
-- Java 8
+- Conocimientos básicos de Android
 
-## Taller :
+## Charlas :
 
 - "Como vivir sin librerías y no morir en el intento"  por Edu Medina
 
