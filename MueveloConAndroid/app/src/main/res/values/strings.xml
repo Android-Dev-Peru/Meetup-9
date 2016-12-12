@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Muevelo con Android</string>
+    <string name="fade_in">Fade In</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="rotate">Rotate</string>
+    <string name="zoom">Zoom</string>
+    <string name="blink">Blink</string>
+    <string name="ball_example">Ball Example</string>
+    <string name="animation_example">Animation Examples</string>
+    <string name="flip_example">Flip Example</string>
+    <string name="key_frame_example">Key Frame Example</string>
+    <string name="rocket_example">Rocket Example</string>
+    <string name="sprite_animation_example">Sprite Animation Example</string>
+    <string name="shared_example">Shared Trans Example</string>
+</resources>

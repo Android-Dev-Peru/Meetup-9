@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/animationExampleItem"
+        android:orderInCategory="99"
+        android:title="@string/animation_example" />
+
+    <item
+        android:id="@+id/ballItem"
+        android:orderInCategory="100"
+        android:title="@string/ball_example" />
+
+    <item
+        android:id="@+id/flipItem"
+        android:orderInCategory="101"
+        android:title="@string/flip_example" />
+
+    <item
+        android:id="@+id/keyFrameItem"
+        android:orderInCategory="102"
+        android:title="@string/key_frame_example" />
+
+    <item
+        android:id="@+id/rocketItem"
+        android:orderInCategory="103"
+        android:title="@string/rocket_example" />
+
+    <item
+        android:id="@+id/spriteItem"
+        android:orderInCategory="104"
+        android:title="@string/sprite_animation_example" />
+
+    <item
+        android:id="@+id/sharedItem"
+        android:orderInCategory="105"
+        android:title="@string/shared_example" />
+
+</menu>
