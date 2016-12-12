@@ -1,5 +1,5 @@
 # Meetup-9
-Meetup #9 Rx, Animaciones y 
+Meetup #9 Rx, Animaciones y Trabajo sin Librerías
 
 ### Requisitos :
 
