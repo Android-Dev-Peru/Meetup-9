@@ -34,16 +34,4 @@ public class Animate {
         animator.setDuration(duration);
         return animator;
     }
-
-    // ROTATE ANIMATIONS
-
-    public Animator rotate(
-            View view,
-            long duration,
-            float rotation
-    ) {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(view, View.ROTATION, 0, rotation);
-        animator.setDuration(duration);
-        return animator;
-    }
 }

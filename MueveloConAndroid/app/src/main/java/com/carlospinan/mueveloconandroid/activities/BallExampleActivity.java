@@ -32,10 +32,10 @@ public class BallExampleActivity extends BaseActivity {
         final ImageView ballImageView = (ImageView) findViewById(R.id.ballImageView);
 
         ObjectAnimator rotateAnimator = ObjectAnimator.ofFloat(ballImageView, View.ROTATION, 0, 360);
-        rotateAnimator.setDuration(5000L);
+        rotateAnimator.setDuration(2500L);
 
-        ValueAnimator positionAnimator = ValueAnimator.ofFloat(0, -1000);
-        positionAnimator.setDuration(5000L);
+        ValueAnimator positionAnimator = ValueAnimator.ofFloat(0, 1000);
+        positionAnimator.setDuration(2500L);
 
         positionAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override

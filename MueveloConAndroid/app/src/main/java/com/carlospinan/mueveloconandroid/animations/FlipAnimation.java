@@ -13,6 +13,7 @@ import android.view.animation.Transformation;
 /**
  * @author Carlos Piñan
  * @date 12/9/16
+ * @source https://2cupsoftech.wordpress.com/2012/09/18/3d-flip-between-two-view-or-viewgroup-on-android/
  */
 public class FlipAnimation extends Animation {
 
@@ -47,6 +48,13 @@ public class FlipAnimation extends Animation {
         centerX = width / 2;
         centerY = height / 2;
         camera = new Camera();
+    }
+
+    public void reverse() {
+        forward = false;
+        View switchView = toView;
+        toView = fromView;
+        fromView = switchView;
     }
 
     @Override

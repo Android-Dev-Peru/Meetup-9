@@ -26,6 +26,6 @@ public class RocketExampleActivity extends BaseActivity {
     @Override
     protected void initLayout() {
         final ImageView rocketImageView = (ImageView) findViewById(R.id.rocketImageView);
-        rocketImageView.animate().xBy(-5000).setDuration(1500L).setStartDelay(500L).start();
+        rocketImageView.animate().translationY(-5000).setDuration(4500L).setStartDelay(500L).start();
     }
 }

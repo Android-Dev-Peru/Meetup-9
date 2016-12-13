@@ -30,18 +30,23 @@ public class FlipExampleActivity extends BaseActivity {
         final ImageView cardBackImageView = (ImageView) findViewById(R.id.cardBackImageView);
         final ImageView cardFrontImageView = (ImageView) findViewById(R.id.cardFrontImageView);
         final FlipAnimation animation = new FlipAnimation(cardBackImageView, cardFrontImageView);
+        animation.reverse();
+
+        final View container = findViewById(R.id.container);
 
         cardBackImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                animation.start();
+                animation.reverse();
+                container.startAnimation(animation);
             }
         });
 
         cardFrontImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                animation.start();
+                animation.reverse();
+                container.startAnimation(animation);
             }
         });
 

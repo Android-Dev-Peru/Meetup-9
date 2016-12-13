@@ -51,8 +51,7 @@ public class AnimationsExampleActivity extends BaseActivity {
                     @Override
                     public void onClick(View view) {
                         resetImageView(exampleImageView);
-                        Animator animator = animate.rotate(exampleImageView, 0, 360);
-                        animator.start();
+                        exampleImageView.animate().rotationYBy(360).start();
                     }
                 });
 
@@ -71,8 +70,8 @@ public class AnimationsExampleActivity extends BaseActivity {
                     public void onClick(View view) {
                         resetImageView(exampleImageView);
                         ObjectAnimator animator = ObjectAnimator.ofFloat(exampleImageView, View.ALPHA, 0.0f, 1.0f);
-                        animator.setDuration(1000);
-                        animator.setRepeatCount(20);
+                        animator.setDuration(500);
+                        animator.setRepeatCount(5);
                         animator.start();
                     }
                 });
