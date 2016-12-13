@@ -21,7 +21,4 @@ Meetup #9  Rx, Animaciones y Trabajo sin Librerías
 
 - "Muevelo con Android (Animaciones)" por Carlos Piñan
 
-## Info:
-
-Architecting Android…The clean way? Fernando Cejas [http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/](http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/)
 
