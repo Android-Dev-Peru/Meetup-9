@@ -7,7 +7,7 @@ Meetup #9  Rx, Animaciones y Trabajo sin Librerías
 
   * Android Without Libraries [https://github.com/emedinaa/android-without-libraries](https://github.com/emedinaa/android-without-libraries)
   
-  * Android RX
+  * Android RX https://github.com/pablo-johnson/RxSample
   
   * Android Animations [https://github.com/Android-Dev-Peru/Meetup-9/tree/master/MueveloConAndroid](https://github.com/Android-Dev-Peru/Meetup-9/tree/master/MueveloConAndroid)
   
