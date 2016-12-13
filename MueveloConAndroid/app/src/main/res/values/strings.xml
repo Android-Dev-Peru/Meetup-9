@@ -12,4 +12,5 @@
     <string name="rocket_example">Rocket Example</string>
     <string name="sprite_animation_example">Sprite Animation Example</string>
     <string name="shared_example">Shared Trans Example</string>
+    <string name="transition_name">transitionName</string>
 </resources>

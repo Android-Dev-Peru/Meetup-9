@@ -12,7 +12,6 @@ import com.carlospinan.mueveloconandroid.activities.BallExampleActivity;
 import com.carlospinan.mueveloconandroid.activities.FlipExampleActivity;
 import com.carlospinan.mueveloconandroid.activities.KeyFrameExampleActivity;
 import com.carlospinan.mueveloconandroid.activities.RocketExampleActivity;
-import com.carlospinan.mueveloconandroid.activities.SpriteAnimationExampleActivity;
 import com.carlospinan.mueveloconandroid.activities.sharedElement.SharedOneExampleActivity;
 
 /**
@@ -45,9 +44,6 @@ public abstract class BaseActivity extends AppCompatActivity {
                 break;
             case R.id.rocketItem:
                 initializeActivity(RocketExampleActivity.class);
-                break;
-            case R.id.spriteItem:
-                initializeActivity(SpriteAnimationExampleActivity.class);
                 break;
             case R.id.sharedItem:
                 initializeActivity(SharedOneExampleActivity.class);

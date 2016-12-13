@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.carlospinan.mueveloconandroid">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +22,6 @@
         <activity android:name=".activities.FlipExampleActivity" />
         <activity android:name=".activities.KeyFrameExampleActivity" />
         <activity android:name=".activities.RocketExampleActivity" />
-        <activity android:name=".activities.SpriteAnimationExampleActivity" />
         <activity android:name=".activities.sharedElement.SharedOneExampleActivity" />
         <activity android:name=".activities.sharedElement.SharedTwoExampleActivity" />
     </application>

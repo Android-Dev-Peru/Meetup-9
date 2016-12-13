@@ -27,13 +27,8 @@
         android:title="@string/rocket_example" />
 
     <item
-        android:id="@+id/spriteItem"
-        android:orderInCategory="104"
-        android:title="@string/sprite_animation_example" />
-
-    <item
         android:id="@+id/sharedItem"
-        android:orderInCategory="105"
+        android:orderInCategory="104"
         android:title="@string/shared_example" />
 
 </menu>
