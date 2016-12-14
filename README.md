@@ -3,7 +3,7 @@ Meetup #9  Rx, Animaciones y Trabajo sin Librerías
 
 ### Requisitos :
 
- - Descargar los proyectos de Android-clean-architecture de Github
+ - Descargar los proyectos :
 
   * Android Without Libraries [https://github.com/emedinaa/android-without-libraries](https://github.com/emedinaa/android-without-libraries)
   
